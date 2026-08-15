@@ -294,7 +294,7 @@ function App() {
       {/* Floating Glassmorphic Navbar */}
       <nav className="navbar">
         <a href="#home" className="logo-link">
-          <Terminal size={22} className="gradient-text-purple" />
+          <img src="/logo.png" alt="M Logo" style={{ width: '28px', height: '28px', borderRadius: '50%', border: '1px solid rgba(255,255,255,0.15)' }} />
           <span>
             Mahir<span className="gradient-text-purple">.dev</span>
           </span>
