@@ -61,6 +61,7 @@ const Linkedin = ({ size = 20, ...props }) => (
 
 import ThreeBg from "./components/ThreeBg";
 import Card3D from "./components/Card3D";
+import mahirProfileImg from "./assets/mahir_kumar.jpg";
 
 // Animation Variants for Scroll Reveals
 const fadeInUp = {
@@ -385,9 +386,8 @@ function App() {
               <div className="portrait-glow-back" />
               <Card3D className="portrait-card" maxRotate={12}>
                 <div className="portrait-img-wrapper">
-                  {/* Using relative path to imported profile image */}
                   <img
-                    src="/src/assets/mahir_kumar.jpg"
+                    src={mahirProfileImg}
                     alt="Mahir Kumar Profile"
                     className="portrait-img"
                   />
