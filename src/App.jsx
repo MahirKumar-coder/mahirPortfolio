@@ -63,6 +63,7 @@ import ThreeBg from "./components/ThreeBg";
 import Card3D from "./components/Card3D";
 import mahirProfileImg from "./assets/mahir_kumar.jpg";
 
+
 // Animation Variants for Scroll Reveals
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
@@ -217,7 +218,6 @@ function App() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
 
-  // Projects filtering and pagination states
   const [activeCategory, setActiveCategory] = useState("All");
   const [showAll, setShowAll] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
